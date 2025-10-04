@@ -3,7 +3,7 @@ version: 1.0.0
 main: com.example.autofuel.AutoFuelPlugin
 api-version: 1.21
 description: Automatically refuel furnaces from nearby chests
-author: YourName
+author: Qianmo
 commands:
   autofuel:
     description: Reload plugin configuration
