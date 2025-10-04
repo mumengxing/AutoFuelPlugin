@@ -1,1 +1,18 @@
-
+name: AutoFuel
+version: 1.0.0
+main: com.example.autofuel.AutoFuelPlugin
+api-version: 1.21
+description: Automatically refuel furnaces from nearby chests
+author: YourName
+commands:
+  autofuel:
+    description: Reload plugin configuration
+    usage: /<command> reload
+    permission: autofuel.reload
+permissions:
+  autofuel.use:
+    description: Use automatic fueling
+    default: true
+  autofuel.reload:
+    description: Reload plugin configuration
+    default: op
